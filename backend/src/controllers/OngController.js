@@ -1,7 +1,7 @@
-import connection from "../database/connection";
-import crypto from 'crypto';
+const connection = require('../database/connection');
+const generateUniqueId = require('../utils/genereteUniqueId');
 
-export default {
+module.exports = {
   async index(req, res) {
     const ongs = await connection('ongs').select('*');
 
@@ -11,7 +11,7 @@ export default {
   async store(req, res) {
     const { name, email, whatsapp, city, uf } = req.body;
 
-    const id = crypto.randomBytes(4).toString('HEX');
+    const id = generateUniqueId();
 
     await connection('ongs').insert({
       id,
