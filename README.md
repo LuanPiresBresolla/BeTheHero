@@ -61,6 +61,8 @@ Project create in Week OmniStack 11 by Rocketseat
 
 With the phone connected in computer, and mode depuration, or with emmulator android open ,run this command for do installation the application in phone
 
+Obs: For you configure the emulator, access this link https://react-native.rocketseat.dev/
+
 ```
   react-native run-android
 ```
