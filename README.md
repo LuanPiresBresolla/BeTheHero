@@ -1,5 +1,5 @@
 # BeTheHero
-Project create in Week OmniStack 11 by Rocketseat
+Project create in Week OmniStack 11 by Rocketseat. This project help ongs that need assists with some problems specific, as accidents peoples or animals
 
 <h2>Backend</h2>
 
